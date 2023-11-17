@@ -1,4 +1,4 @@
-import account from "./lib/account";
+import account from "./lib/account.js";
 
 export default {
   rsConvert: account.rsConvert,
