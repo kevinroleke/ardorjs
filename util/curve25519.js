@@ -850,7 +850,7 @@ function keygen (k) {
     return { p: P, s: s, k: k };
 }
 
-export {
+export default {
     sign,
     verify,
     keygen
