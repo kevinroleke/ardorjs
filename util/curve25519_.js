@@ -1173,4 +1173,8 @@ var curve25519_verify = function (Y, v, h, P) {
   curve25519_fillByteArray(YY, Y);
 };
 
-export default curve25519_ ;
+export default {
+  curve25519_,
+  keygen: curve25519_keygen,
+  sign: curve25519_sign,
+};
